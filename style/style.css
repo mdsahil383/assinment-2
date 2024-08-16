@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.display-flex{
+    display:flex;
+}
+/*Text*/
+.text-gray{
+    color: #E6533C;
+}
+.Service{
+    color: #FFFFFF;
+
+  }
+  .heading{
+    color:white;
+  }
+  .box{
+    color: white;
+  }
+  .team{
+    text-align: center;
+    
+    
+  }
+  .box-container{
+    justify-content: center;
+  }
+  .image{
+    
+  }
+
+
+/* Navbar*/
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar{
+ 
+    justify-content: space-between;
+    align-items: center;
+    }
+.bg-light{
+    background: linear-gradient(to bottom,#141414,#222222,#141414);
+    width: 1440px;
+    height: 750px;
+    background-size: 100%;
+}
+.team{background: linear-gradient(to bottom,#141414,#222222,#141414);
+  width: 1440px;
+  height:350px;
+  background-size: 100%;
+  padding: 100px 0px;
+
+}
+
+.banner-description{
+    font-size:10px ;
+}
+
+.navbar,.banner{
+    max-width:1440px ;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-right:200px ;
+    }
+
+
+ .Fitness{
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+ }   
+
+ /*Btn*/
+
+ .btn{
+    display: flex;
+    gap: 30px;
+
+    
+    
+    
+    
+  }
+  .btn-primary{
+    position: static;
+      border-radius: 42px;
+      background-color: rgb(230, 83, 60);
+      font-weight: bold;
+      color: rgb(255, 254, 254);
+      padding: 16px 40px 16px 40px;
+      width: 224px;
+      height: 54px;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    }
+    .btn-secondary{
+        border-radius: 42px;
+        background-color:black;
+        font-weight: bold;
+        color: rgb(255, 254, 254);
+        padding: 16px 40px 16px 40px;
+        width: 224px;
+        height: 54px;
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       font-size: 18px;
+       font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      
+      border-color: #FFFFFF;
+    
+      }
+
+    /*img*/
+    .img{
+        margin-left:200px ;
+        
+    }
+    .font-1{
+        font-family: 'Miama', sans-serif;
+      }
+      .banner-title{
+        font-size: 70px;
+      }
+
+      /* mini box*/
+
+      .border-box1{
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        left: 1557px;
+        top: 260px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+      
+      }
+      .border-box2{
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        left: 1190px;
+        top: 446px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+      }
+      .btn-box{
+        width: 116px;
+        height: 40px;
+        top: 277px;
+        left: 1131px;
+        color: #FFFFFF;  
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        letter-spacing: 1px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         }
+         .btn-h1{
+          color: #FFFFFF;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+         }
+
+      /* section 2*/
+
+    .display-flex{
+        display: flex;
+    }
+      
+    .box-container{
+        display: flex;
+    }
+    
+/* fetures section*/
+
+.border-box4{
+  position:absolute;
+  margin-top: 115px;
+  width: 1060px;
+height: 371px;
+top: 1367px;
+left:200px;
+gap: 62px;
+opacity: 0px;
+background-color: rgb(34, 34, 34);
+border-radius: 18px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+display: block;
+
+
+ }
+ .box{
+
+  background: linear-gradient(to bottom,#141414,#222222,#141414);
+    width: 1440px;
+    height: 750px;
+    background-size: 100%;
+    
+}
+ 
+
+ .box-title{
+  color: white;
+ }
+ .box-3{
+
+position: absolute;
+width: 443px;
+height: 290px;
+left: 54px;
+top: 41px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: px;
+border: 6 px solid red;
+margin-top: 11px;
+
+ }
+ .box-content{
+  margin-top: -20px;
+  color: rgba(255, 255, 255, 0.5)
+  
+ }
+ .box-btn{
+
+position: static;
+width: 224px;
+font-size: 18px;
+color: #FFFFFF;
+height: 54px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px 40px 16px 40px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 34px 0px;
+border-radius: 42px;
+margin-top: -1px;
+background: rgb(230, 83, 60);
+border: none;
+ }
+
+.run-image{
+  width: 366px;
+  height: 241px;
+  left: -40px;
+  top: 30px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+  margin-top: 210px;
+  margin-left: 900px;
+  z-index: 10;
+  position: relative;
+  display: block;
+}
+.run-image img{
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.position{
+  background: linear-gradient(to bottom,#141414,#222222,#141414);
+    width: 1440px;
+    height:550px;
+    background-size: 100%;
+}
+
+/*BMI*/
+.bmi-section{
+  background: linear-gradient(to bottom,#141414,#222222,#141414);
+    width: 1440px;
+    height:400px;
+    background-size: 100%;
+    padding: 100px 0px;
+
+}
+.bmi-title{
+  color: white;
+  margin-left: 300px;
+  margin-top: -300px;
+  
+}
+.bmi{
+  font-size: 40px;
+}
+
+.{
+  color: white;
+}
+.table{
+  color: white;
+  margin-top: -40px;
+}
+
+/* Table text colour*/
+.text-colour{
+  color: #C4C4C4;
+}
+.table{
+  margin-left: 100px;
+  margin-top:90px;
+}
+
+/*Team*/
+
+
+.bmi-h1{
+  color: white;
+  font-size:40px;
+  margin-top: 80px;
+
+  
+}
+.group-title{
+  margin-top: -400px;
+}
+
+
+/*Team*/
+
+.img-part{
+  position: absolute;
+  
+  width: 1060px;
+  height: 604px;
+ 
+   border: 2px solid rgb(10, 9, 9);
+  border-radius: 18px;
+  background:#2c2b2b;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top:35px;
+  margin-left: 200px;
+ 
+}
+.img-team{
+  justify-content: space-around;
+  display: flex;
+}
+.img{
+  border-radius: 18px;
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 326.67px;
+  height: 272px;
+
+} 
+.name{
+  height: 25px;
+  font-size: 20px;
+  margin-top: -20%;
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
+}
+.trainer{
+  font-size: 15px;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: -20px;
+}
+
+
+
+.title-p{
+  width: 671px;
+  height: 48px;
+  font-size: 24px;
+  font-weight: 400;
+   color: rgba(15, 16, 15, 0.5);
+  margin-top: -5px;
+}
+
+
+/*unic */
+
+#about{
+  padding: 100px 0px;
+  background:  linear-gradient(to bottom,#141414,#222222,#141414);
+  width: 1440px;
+background-size: 100%;
+}
+
+  
+
+.about-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.about-left-col{
+  flex-basis: 50%;
+  max-width: 400px;
+  margin: auto;
+  
+
+}
+
+.unic-h{
+  color: #C4C4C4;
+}
+.p-tag{
+  color: #FFFFFF;
+}
+.about-right-col{
+  flex-basis: 50%;
+  text-align: center;
+}
+.about-right-col img{
+  width: 80%;
+
+}
+.about-left-col h1{
+  font-size: 50px;
+
+}
+.about-left-col p{
+  font-size: 2opx;
+  text-align: justify;
+  margin: 15px 0px;
+}
+.c-btn{
+  padding: 10px;
+  margin: 10px 0px;
+  color: white;
+  border: none;
+  background: #E6533C;
+  border-radius: 8px;
+}
+
+
+
+/*footer*/
+
+
+.footer{
+  position: absolute;
+margin-top: 100px;
+background-size: 100%;
+
+background: #222;
+text-align: center;
+width: 1440px;
+height: 600px;
+display: block;
+
+  
+}
+
+    
+
+
+  .Fitness{
+    width: 1059px;
+    height: 249px;
+    margin: 0 auto;
+    
+    display: flex;
+  
+  background: #222;
+    
+  }
+  .fit-h1{
+  font-style: italic;
+  width: 256px;
+  height: 100px;
+  color: rgb(230, 83, 60);
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 40px;
+  }
+  .fit-p{
+    color:rgba(255, 255, 255, 0.366);
+    font-size: 16px;
+    width: 443px;
+    height: 72px;
+    margin-top: 140px;
+    position: absolute;
+    margin-left: -20px;
+    
+    
+  }
+  .title-get{
+    width: 514px;
+    height: 249px;
+  
+  
+  
+  
+  }
+  .title-1{
+    width: 381px;
+    height: 349px;
+     margin: 0 auto; 
+  
+    margin-left: 300px;
+    text-align: left;
+  }
+  .get-title{
+    width: 281px;
+    height: 85px; 
+    color: #FFFFFF;
+    margin-top: 55px;
+    font-size: 48px;
+    }
+  .get-p{
+    width: 182px;
+    height: 38px; 
+    color: rgba(255, 255, 255, 0.341);
+    font-size: 20px;
+    margin-left: 1px;
+    margin-top: 20px;
+  
+  }
+  .title-2{
+    width: 281px;
+    height: 249px;
+    text-align: left;
+    
+    
+  }
+  .get-title-2{
+    width: 181px;
+    height: 249px;
+    color: rgb(19, 246, 159);
+    font-size: 32px;
+    font-weight: 700;
+  
+  }
+  .get-2{
+    width: 179px;
+    height: 28px; 
+    color:rgb(237, 10, 10);
+    color: rgba(233, 3, 3, 0.5);
+    font-size: 20px;
+     font-weight: 400;
+  }
+  .hr-tag{
+    
+    width: 1059.5px;
+    height: 0;
+  
+    border: 2px solid rgba(222, 10, 10, 0.1);
+    margin-top: 180px;
+  
+  }
+  .ses-part{
+    
+    width: 918px;
+    height: 94px;
+    color: rgba(241, 12, 81, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 48px;
+  
+  }
+
+
